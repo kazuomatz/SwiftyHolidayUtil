@@ -43,8 +43,7 @@ label.date = Date()
 
 ### DateStyleの設定
 
-SwiftyHolidayUtil.dateStyle
-日付のスタイルを指定できます。
+日付のスタイル（SwiftyHolidayUtil.dateStyle）を指定できます。
 
 | dateStyle |
 |----|
@@ -68,6 +67,8 @@ label.date = Date()
 <img width="261" alt="2019-01-28 22 46 00" src="https://user-images.githubusercontent.com/2704723/51840102-8195a500-234e-11e9-9f8d-28c076809353.png">
 
 ### Localeの設定
+
+ロケールの設定が可能です。書式は言語コードに、祝日の判定と、土・日・祝日の色の表示は、地域コード（Regionコード)によって決定されます。
 
 ```swift
 label.locale = Locale(identifier: "ja_JP")
@@ -116,7 +117,7 @@ label.date = Date()
 <img width="204" alt="2019-01-28 23 41 09" src="https://user-images.githubusercontent.com/2704723/51843516-89f1de00-2356-11e9-8547-46e15ce9223c.png">
 
 
-## Color of Day
+## 表示色について
 
 日本は土曜日は青、日曜・祝日は赤が慣例だけど、他の国は千差万別だとお思います。
 リージョン毎で設定できるように作ってあるので、以下のような組み合わせで初期値として実装が可能です。
