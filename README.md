@@ -118,6 +118,24 @@ label.date = Date()
 <img width="204" alt="2019-01-28 23 41 09" src="https://user-images.githubusercontent.com/2704723/51843516-89f1de00-2356-11e9-8547-46e15ce9223c.png">
 
 
+## Color of Day
+
+In my country Japan, I express blue on Saturday and red on Sundays and holidays.
+In your country, what color do you express on Saturdays, Sundays and holidays?
+
+Please pull request region code and colors.
+
+- HolidayUtil+defaulRegionOptions.swift
+
+```swift
+"JP": [
+            FormatOptionKey.saturdayColor: UIColor.blue,
+            FormatOptionKey.sundayColor: UIColor.red,
+            FormatOptionKey.holidayColor: UIColor.red
+        ]
+```
+
+
 ## Author
 
 kazuomatz, getlasterror@gmail.com
