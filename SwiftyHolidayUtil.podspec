@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
     s.author           = { 'kazuomatz' => 'getlasterror@gmail.com' }
     s.source           = { :git => 'https://github.com/kazuomatz/SwiftyHolidayUtil.git', :tag => s.version.to_s }
     s.social_media_url = 'https://twitter.com/kazuomatz'
-    
+    s.swift_version = '4.2'
     s.ios.deployment_target = '9.3'
     s.source_files = 'Classes/**/*'
     s.frameworks = 'UIKit'

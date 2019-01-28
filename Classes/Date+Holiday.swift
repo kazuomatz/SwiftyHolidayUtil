@@ -164,7 +164,7 @@ public extension Date {
         if option?[SwiftyHolidayUtil.FormatOptionKey.weekPosision] as? SwiftyHolidayUtil.WeekPosition == .head {
             text.append(NSAttributedString(string: option?[weekPrefixKey] as? String ?? ""))
             text.append (
-                NSAttributedString(string: weekStr, attributes: [.foregroundColor: weeekColor])
+                NSAttributedString(string: weekStr, attributes: [NSAttributedString.Key.foregroundColor: weeekColor])
             )
             text.append(NSAttributedString(string: option?[weekSuffixKey] as? String ?? ""))
         }
