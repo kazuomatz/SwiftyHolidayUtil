@@ -135,8 +135,8 @@ label.date = Date()
 
 ## 祝日の判定ロジック
 
-現在は、日本の判定ロジックのみ実装しています。[fumiyasac](https://github.com/fumiyasac)さんの[fumiyasac/handMadeCalendarOfSwift
-](https://github.com/fumiyasac/handMadeCalendarOfSwift)を使用しています。
+現在は日本の判定ロジック([fumiyasac](https://github.com/fumiyasac)さんの[fumiyasac/handMadeCalendarOfSwift
+](https://github.com/fumiyasac/handMadeCalendarOfSwift))のみを実装しています。
 
 USと韓国とベトナムの暫定コードを実装していますが、このコードは2019年しか正しく動作しません。
 各国の祝日判定のロジックがあれば実装してもらえたらと思います。
