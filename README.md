@@ -5,6 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftyHolidayUtil.svg?style=flat)](https://cocoapods.org/pods/SwiftyHolidayUtil)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyHolidayUtil.svg?style=flat)](https://cocoapods.org/pods/SwiftyHolidayUtil)
 
+## About
+
+SwiftyHolidayUtil is a library for highlighting holidays.
+
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
