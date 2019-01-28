@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
     #   * Finally, don't worry about the indent, CocoaPods strips it!
     
     s.description      = <<-DESC
-    SwiftyHolidayUtil is a library for highlighting holidays.
+    SwiftyHolidayUtil is a library for highlighting holidays. Very easy as it can be used as extension of UILabel.
     DESC
     
     s.homepage         = 'https://github.com/kazuomatz/SwiftyHolidayUtil'
-    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.screenshots     =  'https://user-images.githubusercontent.com/2704723/51838188-f1a12c80-2348-11e9-8b22-45de8cac84e0.png'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'kazuomatz' => 'getlasterror@gmail.com' }
     s.source           = { :git => 'https://github.com/kazuomatz/SwiftyHolidayUtil.git', :tag => s.version.to_s }

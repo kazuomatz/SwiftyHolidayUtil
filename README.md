@@ -1,6 +1,5 @@
 # SwiftyHolidayUtil
 
-[![CI Status](https://img.shields.io/travis/kazuomatz/SwiftyHolidayUtil.svg?style=flat)](https://travis-ci.org/kazuomatz/SwiftyHolidayUtil)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyHolidayUtil.svg?style=flat)](https://cocoapods.org/pods/SwiftyHolidayUtil)
 [![License](https://img.shields.io/cocoapods/l/SwiftyHolidayUtil.svg?style=flat)](https://cocoapods.org/pods/SwiftyHolidayUtil)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyHolidayUtil.svg?style=flat)](https://cocoapods.org/pods/SwiftyHolidayUtil)
@@ -30,7 +29,7 @@ pod 'SwiftyHolidayUtil'
 
 ## Usage
 
-It is very simple. When using as UILabel Extension, write as follows.
+ Very easy as it can be used as extension of UILabel.
 
 ```swift
 import SwiftyHolidayUtil
