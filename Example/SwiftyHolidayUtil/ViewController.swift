@@ -73,18 +73,6 @@ UIPickerViewDelegate, UIPickerViewDataSource {
         let newDate = calendar.date(
             byAdding: .day, value: indexPath.row,
             to: calendar.startOfDay(for: self.date)) ?? Date()
-        
-        cell.textLabel!.locale = Locale(identifier: "ja_JP")
-        cell.textLabel!.dateStyle = .medium
-        cell.textLabel!.holidayFormatOptions = [
-            .holidayColor: "#077705",
-            .mediumWeekPrefix: "【",
-            .mediumWeekSuffix: "】",
-            .weekPosision: SwiftyHolidayUtil.WeekPosition.head
-        ]
-        cell.textLabel!.date = newDate
-        /*
-        
         if self.selectedIndex > 0 {
             cell.textLabel!.locale = Locale(identifier: self.availableLocaleIdentifiers[self.selectedIndex])
         } else {
@@ -98,7 +86,7 @@ UIPickerViewDelegate, UIPickerViewDataSource {
         default:
             cell.textLabel!.dateStyle = .medium
         }
-        cell.textLabel!.date = newDate*/
+        cell.textLabel!.date = newDate
         return cell
     }
 
