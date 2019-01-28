@@ -1,0 +1,23 @@
+PODS:
+  - CalculateCalendarLogic (0.2.5)
+  - SwiftyHolidayUtil (0.1.0):
+    - CalculateCalendarLogic
+
+DEPENDENCIES:
+  - SwiftyHolidayUtil (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CalculateCalendarLogic
+
+EXTERNAL SOURCES:
+  SwiftyHolidayUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CalculateCalendarLogic: 27db31b8f27a42869ecf7ad0d43963a05af14193
+  SwiftyHolidayUtil: 821626a06de8dd4154c68cc1e63f5963e194cd74
+
+PODFILE CHECKSUM: 0f70bf1690688e2cd8b59d0ed1014a72e059024f
+
+COCOAPODS: 1.5.3

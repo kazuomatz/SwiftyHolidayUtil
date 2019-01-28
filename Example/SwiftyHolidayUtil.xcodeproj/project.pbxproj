@@ -41,12 +41,12 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		68475A849C9EFE398D9FE075 /* Pods-SwiftyHolidayUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyHolidayUtil_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyHolidayUtil_Tests/Pods-SwiftyHolidayUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		725BE94CD59B72FC41CCCD52 /* Pods-SwiftyHolidayUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyHolidayUtil_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyHolidayUtil_Tests/Pods-SwiftyHolidayUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		85D4288D6D531DF6762A86D8 /* SwiftyHolidayUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyHolidayUtil.podspec; path = ../SwiftyHolidayUtil.podspec; sourceTree = "<group>"; };
+		85D4288D6D531DF6762A86D8 /* SwiftyHolidayUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyHolidayUtil.podspec; path = ../SwiftyHolidayUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE96A897737A2A8D24CC1423 /* Pods-SwiftyHolidayUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyHolidayUtil_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyHolidayUtil_Example/Pods-SwiftyHolidayUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B432C569DCCD270253D0633A /* Pods_SwiftyHolidayUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyHolidayUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC982B4AD13C46BD8AE32E7F /* Pods-SwiftyHolidayUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyHolidayUtil_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyHolidayUtil_Example/Pods-SwiftyHolidayUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D4103D3BC5288E03B73E3368 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F07353D246FA7CC58F9B30A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D4103D3BC5288E03B73E3368 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F07353D246FA7CC58F9B30A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,10 +268,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyHolidayUtil_Example/Pods-SwiftyHolidayUtil_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CalculateCalendarLogic/CalculateCalendarLogic.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyHolidayUtil/SwiftyHolidayUtil.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalculateCalendarLogic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyHolidayUtil.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

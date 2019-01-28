@@ -7,15 +7,13 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+サンプルプロジェクトを実行するには、Exampleで `pod install`を実行します。
 
 ## Requirements
 
 ## Installation
 
-SwiftyHolidayUtil is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
+CocoaPodsで使用する場合は、[CocoaPods](https://cocoapods.org). PodFileに以下を記述します。
 ```ruby
 pod 'SwiftyHolidayUtil'
 ```
