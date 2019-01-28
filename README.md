@@ -120,7 +120,7 @@ label.date = Date()
 
 ## Color of Day
 
-In my country Japan, I express blue on Saturday and red on Sundays and holidays.
+In my country Japan, We express blue on Saturday and red on Sundays and holidays.
 In your country, what color do you express on Saturdays, Sundays and holidays?
 
 Please pull request region code and colors.
@@ -135,6 +135,15 @@ Please pull request region code and colors.
         ]
 ```
 
+## Holidays calculation logic
+
+Currently it is implemented only in Japan's holiday calculation logic.
+
+[fumiyasac/handMadeCalendarOfSwift
+](https://github.com/fumiyasac/handMadeCalendarOfSwift)
+
+US, Korea, Vietnam have implemented provisional logic. However, it is incomplete which can only calculate the holiday of 2019.
+If you have perfect logic in your country, please implement and pull request.
 
 ## Author
 
