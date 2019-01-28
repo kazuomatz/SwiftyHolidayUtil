@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyHolidayUtil_Example' do
+  pod 'SwiftyHolidayUtil', :path => '../'
+
+  target 'SwiftyHolidayUtil_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
