@@ -16,7 +16,8 @@ SwiftyHolidayUtilは、土曜日・日曜日・祝日をハイライトするラ
 
 サンプルプロジェクトを実行するには、Exampleで `pod install`を実行します。
 
-## Requirements
+## 要件
+
 - Swit 4.2
 
 ## インストール方法
