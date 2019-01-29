@@ -21,7 +21,7 @@ SwiftyHolidayUtilは、土曜日・日曜日・祝日をハイライトするラ
 
 ## インストール方法
 
-[CocoaPods](https://cocoapods.org)で使用する場合は、.PodFileに以下を記述します。
+[CocoaPods](https://cocoapods.org/pods/SwiftyHolidayUtil)で使用する場合は、.PodFileに以下を記述します。
 ```ruby
 pod 'SwiftyHolidayUtil'
 ```
