@@ -7,7 +7,7 @@
 ## About
 
 SwiftyHolidayUtil is a library for highlighting holidays.
-Japanese README [here](https://github.com/kazuomatz/SwiftyHolidayUtil/blob/master/README.ja.md).
+Japanese README is [here](https://github.com/kazuomatz/SwiftyHolidayUtil/blob/master/README.ja.md).
 
 <img src="https://user-images.githubusercontent.com/2704723/51838188-f1a12c80-2348-11e9-8b22-45de8cac84e0.png" width="50%"/>
 
@@ -21,7 +21,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-SwiftyHolidayUtil is available through [CocoaPods](https://cocoapods.org). To install
+SwiftyHolidayUtil is available through [CocoaPods](https://cocoapods.org/pods/SwiftyHolidayUtil). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
